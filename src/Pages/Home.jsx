@@ -30,51 +30,50 @@ function Home() {
           </p>
 
           <p className="text-gray-500 mt-6 max-w-2xl mx-auto leading-relaxed">
-            I love turning ideas into real digital products that people can actually use.
-            Every project improves my skills and pushes me closer to full-stack development.
+            I enjoy turning ideas into real products. Every project I build helps me
+            improve my frontend skills and move closer to full-stack development.
           </p>
         </div>
 
-        {/* STATS */}
-    <div className="py-28 border-t border-white/10 grid md:grid-cols-3 gap-6 text-center">
+        {/* STATS (REALISTIC) */}
+        <div className="py-28 border-t border-white/10 grid md:grid-cols-3 gap-6 text-center">
 
-  <div className="p-6 bg-white/5 border border-white/10 rounded-xl hover:border-blue-500 transition">
-    <h3 className="text-4xl text-blue-500 font-bold">16</h3>
-    <p className="text-gray-400 mt-2">Years Old</p>
-    <p className="text-gray-600 mt-2 text-sm">Student developer</p>
-  </div>
+          <div className="p-6 bg-white/5 border border-white/10 rounded-xl hover:border-blue-500 transition">
+            <h3 className="text-4xl text-blue-500 font-bold">16</h3>
+            <p className="text-gray-400 mt-2">Years Old</p>
+            <p className="text-gray-600 mt-2 text-sm">Student developer</p>
+          </div>
 
-  <div className="p-6 bg-white/5 border border-white/10 rounded-xl hover:border-blue-500 transition">
-    <h3 className="text-4xl text-blue-500 font-bold">Small & Medium</h3>
-    <p className="text-gray-400 mt-2">Frontend Projects</p>
-    <p className="text-gray-600 mt-2 text-sm">React & UI practice builds</p>
-  </div>
+          <div className="p-6 bg-white/5 border border-white/10 rounded-xl hover:border-blue-500 transition">
+            <h3 className="text-4xl text-blue-500 font-bold">5+</h3>
+            <p className="text-gray-400 mt-2">Completed Projects</p>
+            <p className="text-gray-600 mt-2 text-sm">Small & medium React apps</p>
+          </div>
 
-  <div className="p-6 bg-white/5 border border-white/10 rounded-xl hover:border-blue-500 transition">
-    <h3 className="text-4xl text-blue-500 font-bold">1+ yr</h3>
-    <p className="text-gray-400 mt-2">Learning Experience</p>
-    <p className="text-gray-600 mt-2 text-sm">Frontend development focus</p>
-  </div>
+          <div className="p-6 bg-white/5 border border-white/10 rounded-xl hover:border-blue-500 transition">
+            <h3 className="text-4xl text-blue-500 font-bold">1+ yr</h3>
+            <p className="text-gray-400 mt-2">Frontend Experience</p>
+            <p className="text-gray-600 mt-2 text-sm">Learning & building daily</p>
+          </div>
 
-</div>
+        </div>
 
         {/* ABOUT */}
         <div className="py-28 border-t border-white/10">
           <h2 className="text-3xl font-bold text-blue-500">About Me</h2>
 
           <p className="text-gray-400 mt-6 leading-8 max-w-3xl">
-            I am a frontend developer from Kosovo focused on building modern UI systems.
-            I started coding because I was curious how real websites work.
+            I am a frontend developer from Kosovo focused on building clean and modern UI systems.
+            I started coding because I was curious how websites actually work.
           </p>
 
           <p className="text-gray-500 mt-4 leading-8 max-w-3xl">
-            Over time I moved from simple layouts to full React applications with real logic,
-            reusable components, and structured architecture.
+            Over time I moved from basic HTML pages to full React applications with reusable components,
+            proper structure, and responsive design.
           </p>
 
           <p className="text-gray-600 mt-4 leading-8 max-w-3xl">
-            Now I focus on building scalable frontend systems and improving UI/UX design skills
-            while learning backend development.
+            Now I focus on improving architecture, UI/UX, and building real-world applications that feel professional.
           </p>
         </div>
 
@@ -85,37 +84,37 @@ function Home() {
           <div className="mt-10 space-y-6 max-w-3xl">
 
             <div className="p-5 bg-white/5 border border-white/10 rounded-xl">
-              <h3 className="text-white font-semibold">Started with HTML & CSS</h3>
+              <h3 className="text-white font-semibold">Curiosity Stage</h3>
               <p className="text-gray-400 mt-2 text-sm">
-                Learned structure, layout, and basic web design principles.
+                Learned how websites are structured using HTML & CSS.
               </p>
             </div>
 
             <div className="p-5 bg-white/5 border border-white/10 rounded-xl">
-              <h3 className="text-white font-semibold">JavaScript Phase</h3>
+              <h3 className="text-white font-semibold">JavaScript Learning</h3>
               <p className="text-gray-400 mt-2 text-sm">
-                Learned logic, DOM manipulation, and interactive web features.
+                Learned logic, functions, DOM manipulation and interactivity.
               </p>
             </div>
 
             <div className="p-5 bg-white/5 border border-white/10 rounded-xl">
-              <h3 className="text-white font-semibold">React Development</h3>
+              <h3 className="text-white font-semibold">React Phase</h3>
               <p className="text-gray-400 mt-2 text-sm">
-                Built real applications using components and state management.
+                Started building full apps with components and state management.
               </p>
             </div>
 
             <div className="p-5 bg-white/5 border border-white/10 rounded-xl">
-              <h3 className="text-white font-semibold">Current Level</h3>
+              <h3 className="text-white font-semibold">Now</h3>
               <p className="text-gray-400 mt-2 text-sm">
-                Building structured apps, improving performance and UI systems.
+                Building structured projects and improving UI architecture.
               </p>
             </div>
 
           </div>
         </div>
 
-        {/* SERVICES */}
+        {/* WHAT I DO */}
         <div className="py-28 border-t border-white/10">
           <h2 className="text-3xl font-bold text-blue-500">What I Do</h2>
 
@@ -124,21 +123,21 @@ function Home() {
             <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
               <h3 className="text-white font-semibold">Frontend Development</h3>
               <p className="text-gray-400 mt-2 text-sm">
-                Building modern responsive websites using React.
+                Building responsive React applications with modern UI design.
               </p>
             </div>
 
             <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
-              <h3 className="text-white font-semibold">UI Design</h3>
+              <h3 className="text-white font-semibold">UI/UX Design</h3>
               <p className="text-gray-400 mt-2 text-sm">
-                Designing clean and minimal user interfaces.
+                Creating clean interfaces focused on usability and simplicity.
               </p>
             </div>
 
             <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
               <h3 className="text-white font-semibold">Learning Backend</h3>
               <p className="text-gray-400 mt-2 text-sm">
-                Working toward full-stack development skills.
+                Exploring APIs and backend concepts for full-stack growth.
               </p>
             </div>
 
@@ -189,13 +188,47 @@ function Home() {
 
           </div>
         </div>
+{/* WORKFLOW */}
+<div className="py-28 border-t border-white/10">
+  <h2 className="text-3xl font-bold text-blue-500">
+    My Workflow
+  </h2>
 
-        {/* FEATURED PROJECTS (WORKING ON THEM) */}
+  <p className="text-gray-400 mt-6 max-w-3xl leading-8">
+    Every project I build follows a simple and structured process to keep things clean and scalable.
+  </p>
+
+  <div className="mt-10 grid md:grid-cols-3 gap-6">
+
+    <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
+      <h3 className="text-white font-semibold">1. Plan</h3>
+      <p className="text-gray-400 mt-2 text-sm">
+        I start by understanding the idea and sketching basic UI structure.
+      </p>
+    </div>
+
+    <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
+      <h3 className="text-white font-semibold">2. Build</h3>
+      <p className="text-gray-400 mt-2 text-sm">
+        I develop the UI using React components and Tailwind CSS.
+      </p>
+    </div>
+
+    <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
+      <h3 className="text-white font-semibold">3. Improve</h3>
+      <p className="text-gray-400 mt-2 text-sm">
+        I refine UI, fix bugs, and optimize performance and responsiveness.
+      </p>
+    </div>
+
+  </div>
+</div>
+        {/* FEATURED PROJECTS */}
         <div className="py-28 border-t border-white/10">
           <h2 className="text-3xl font-bold text-blue-500">Featured Projects</h2>
 
           <p className="text-gray-400 mt-4 max-w-3xl">
-            These are projects I am currently working on and improving continuously.
+            These are projects I am currently working on and improving step by step.
           </p>
 
           <div className="mt-10 space-y-6 max-w-3xl">
@@ -203,8 +236,8 @@ function Home() {
             <div className="p-5 bg-white/5 border border-white/10 rounded-xl">
               <h3 className="text-white font-semibold">Relocate Web</h3>
               <p className="text-gray-400 mt-2 text-sm">
-                A moving service platform designed to help people organize relocation tasks.
-                Currently improving UI and adding more features.
+                A moving service app focused on helping users organize relocation tasks.
+                Currently improving UI and adding features.
               </p>
             </div>
 
@@ -212,34 +245,80 @@ function Home() {
               <h3 className="text-white font-semibold">Real Estate App</h3>
               <p className="text-gray-400 mt-2 text-sm">
                 Property listing system with filters and search functionality.
-                Still in development stage.
+                Still in active development.
               </p>
             </div>
 
             <div className="p-5 bg-white/5 border border-white/10 rounded-xl">
               <h3 className="text-white font-semibold">Student System</h3>
               <p className="text-gray-400 mt-2 text-sm">
-                CRUD system built with React and localStorage.
-                Working on improving structure and UX.
+                CRUD app using React + localStorage.
+                Improving structure and UX.
               </p>
             </div>
 
           </div>
         </div>
+{/* WHAT I LEARNED */}
+<div className="py-28 border-t border-white/10">
+  <h2 className="text-3xl font-bold text-blue-500">
+    What I Learned Recently
+  </h2>
 
+  <p className="text-gray-400 mt-6 max-w-3xl leading-8">
+    I am constantly improving my skills by building real projects and learning from mistakes.
+  </p>
+
+  <div className="mt-10 space-y-3 text-gray-400 max-w-3xl">
+    <p>• Improved React component structure and reusability</p>
+    <p>• Learned better state management patterns</p>
+    <p>• Practiced API fetching and async logic</p>
+    <p>• Improved responsive design skills with Tailwind CSS</p>
+    <p>• Started thinking more like a real frontend developer</p>
+  </div>
+</div>
         {/* MINDSET */}
         <div className="py-28 border-t border-white/10">
           <h2 className="text-3xl font-bold text-blue-500">Mindset</h2>
 
           <p className="text-gray-400 mt-6 max-w-3xl leading-8">
-            I believe consistency beats talent. I improve every day by building real projects instead of just learning theory.
+            Consistency beats talent. I focus on building real projects instead of only learning theory.
           </p>
 
           <p className="text-gray-500 mt-4 max-w-3xl leading-8">
-            Small progress every day leads to big results over time.
+            Small daily progress leads to big results over time.
           </p>
         </div>
+{/* AVAILABLE FOR WORK */}
+<div className="py-28 border-t border-white/10 text-center">
+  <h2 className="text-3xl font-bold text-blue-500">
+    Availability
+  </h2>
 
+  <p className="text-gray-300 mt-6 max-w-3xl mx-auto leading-8">
+    I am currently open for freelance work, small projects, and collaborations.
+    If you have an idea, startup, or project and need a frontend developer, I would be happy to help.
+  </p>
+
+  <p className="text-gray-500 mt-4 max-w-2xl mx-auto leading-8">
+    I mainly focus on React and modern UI development, and I enjoy working with people
+    who are building real and useful products.
+  </p>
+
+  <div className="mt-10 flex flex-col md:flex-row justify-center gap-3 text-sm text-gray-400">
+    <span className="px-5 py-2 border border-white/10 rounded-full bg-white/5">
+      ✔ Freelance Available
+    </span>
+
+    <span className="px-5 py-2 border border-white/10 rounded-full bg-white/5">
+      ✔ Open to Collaboration
+    </span>
+
+    <span className="px-5 py-2 border border-white/10 rounded-full bg-white/5">
+      ✔ Remote Friendly
+    </span>
+  </div>
+</div>
         {/* CTA */}
         <div className="py-28 border-t border-white/10 text-center">
           <h2 className="text-3xl font-bold text-blue-500">
@@ -251,23 +330,19 @@ function Home() {
           </p>
 
           <div className="mt-10 flex justify-center gap-4">
-
             <Link
               to="/contact"
               className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-xl font-semibold transition"
             >
               Contact Me
             </Link>
-
           </div>
         </div>
 
       </div>
-      
+     
     </section>
-    
   );
-  
 }
 
 export default Home;
